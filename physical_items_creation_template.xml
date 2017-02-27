@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import>
+	<node type="physicalitem" action="create">
+		<location></location>
+		<title></title>
+		<keywords></keywords>
+		<mediatype></mediatype>
+		<physicallocation></physicallocation>
+		<currentlocation></currentlocation>
+		<uniqueID></uniqueID>
+		<physicalproperty name="eDOCS_Number" value=""></physicalproperty>
+		<physicalproperty name="eDOCS_Type" value=""></physicalproperty>
+		<versioncontrol></versioncontrol>
+		<versionmajor></versionmajor>
+		<createdby></createdby>
+		<owner></owner>
+		<created></created>
+		<modified></modified>
+		<description language="en_CA"></description>
+		<rmclassification filenumber="5-3400-3499">
+			<status></status>
+			<statusdate></statusdate>
+			<recorddate></recorddate>
+			<essential>NO</essential>
+			<storage>PHYS</storage>
+			<official>FALSE</official>
+		</rmclassification>r
+	</node>
+</import>
+
+=CONCATENATE("<node type=""physicalitem"" action=""create"">
+<location>",TRIM(C2),"</location>
+<title>",TRIM(B2),"</title>
+<keywords>","RDIMS","</keywords>
+<mediatype>",N2,"</mediatype>
+<physicallocation>",D2,"</physicallocation>
+<currentlocation>",D2,"</currentlocation>
+<uniqueID>",E2,"</uniqueID>
+<versioncontrol>TRUE</versioncontrol>
+<versionmajor>1</versionmajor>
+<createdby>",I2,"</createdby>
+<owner>",I2,"</owner>
+<created>",J2,"</created>
+<modified>",K2,"</modified>
+<description language=""en_CA"">",TRIM(G2),"</description>
+<rmclassification filenumber=""5-3400-3499"">
+	<status>",O2,"</status>
+	<statusdate>",P2,"</statusdate>
+	<recorddate>",P2,"</recorddate>
+	<essential>NO</essential>
+	<storage>ELE</storage>
+	<official>FALSE</official>
+</rmclassification>
+</node>")
