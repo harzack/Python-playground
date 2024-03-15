@@ -1,1 +1,9 @@
-This line is added by Pythonanother line maybe
+old content: 
+This line is added by me
+this line too
+new content: 
+This line is added by Python
+another line too
+newer content: 
+This line is added by Python twice
+another line thrice
