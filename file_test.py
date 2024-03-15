@@ -6,7 +6,7 @@ __author__ = 'alex'
 test_file_w = open('test.txt', 'a')
 
 ''' Opening a file:
-Character   Meaning
+Character   Meaning 
 'r'         open for reading (default)
 'w'         open for writing, truncating the file first
 'x'         open for exclusive creation, failing if the file already exists
@@ -22,4 +22,3 @@ test_file_w.write('another line thrice\n')
 test_file_w.close()
 
 # test_file.write(content)
-
